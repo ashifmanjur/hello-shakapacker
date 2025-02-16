@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+ruby "3.4.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
@@ -57,3 +58,5 @@ group :test do
 end
 
 gem "shakapacker", "= 8.1"
+
+gem "react_on_rails", "14.1.1"
